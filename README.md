@@ -22,9 +22,9 @@
 
 ## 🧩 **2. Arquitetura**
 
-* [ ] Definir arquitetura geral (Bot → API → Engine → Dashboard)
-* [ ] Criar diagrama
-* [ ] Escolher tecnologias definitivas
+* [x] Definir arquitetura geral (Bot → API → Engine → Dashboard)
+* [x] Criar diagrama
+* [x] Escolher tecnologias definitivas
 
 ---
 
