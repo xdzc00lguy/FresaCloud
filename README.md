@@ -16,7 +16,7 @@
 * [ ] Autenticação avançada
 * [ ] Limites de CPU/RAM
 * [ ] Sistema de billing
-* [ ] Deploy via GitHub
+* [x] Deploy via GitHub
 
 ---
 
@@ -30,8 +30,8 @@
 
 ## 📁 **3. Repositório**
 
-* [ ] Criar repositório `fresacloud/`
-* [ ] Criar README inicial
+* [x] Criar repositório `fresacloud/`
+* [x] Criar README inicial
 * [ ] Criar pastas:
 
   * [ ] `/bot`
