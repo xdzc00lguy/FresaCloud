@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body{
+    background: #23272A;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* -------------------- HEADER 3D -------------------- */
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    text-align: center;
+    background: linear-gradient(145deg, #2C2F33, #23272A);
+}
+
+header h1{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #5865F2;
+    transform: rotateX(15deg);
+    animation: float 4s ease-in-out infinite;
+}
+
+header p{
+    font-size: 1.4rem;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+/* Animação flutuante */
+@keyframes float{
+    0%,100%{ transform: translateY(0) rotateX(15deg);}
+    50%{ transform: translateY(-20px) rotateX(10deg);}
+}
+
+/* -------------------- BOTÃO CTA -------------------- */
+.cta-btn{
+    margin-top: 40px;
+    padding: 18px 45px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background: #5865F2;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateZ(60px);
+    box-shadow: 0 0 25px #5865F2;
+    text-decoration: none;
+}
+
+.cta-btn:hover{
+    transform: scale(1.1) translateZ(60px);
+    box-shadow: 0 0 40px #5865F2;
+}
+
+/* -------------------- SECTION FEATURES -------------------- */
+.features{
+    padding: 100px 5%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.feature-card{
+    width: 330px;
+    background: #2C2F33;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+
+.feature-card:hover{
+    transform: scale(1.07) rotateY(10deg);
+    box-shadow: 0 0 25px #5865F2;
+}
+
+.feature-card h3{
+    font-size: 1.7rem;
+    color: #57F287;
+}
+
+.feature-card p{
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* -------------------- ANIMAÇÃO PARALLAX -------------------- */
+.parallax{
+    height: 300px;
+    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(0.6);
+}
+
+/* -------------------- FOOTER -------------------- */
+footer{
+    background: #111;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: .9rem;
+    opacity: 0.7;
+}
+
+/* Responsividade */
+@media(max-width: 720px){
+    header h1{ font-size: 3rem; }
+    .cta-btn{ font-size: 1.2rem; 
+    }
+}

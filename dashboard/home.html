@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FresaCloud — Home</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+
+<header class="hero">
+    <h1 class="hero-title">FresaCloud Dashboard</h1>
+    <p class="hero-subtitle">Gerencie seu bot com poder, estilo e simplicidade.</p>
+</header>
+
+<section class="main-actions">
+
+    <div class="action-card" data-tilt>
+        <h3>➕ Adicionar Bot</h3>
+        <p>Conecte seu bot ao FresaCloud com apenas um clique.</p>
+        <a class="action-btn purple" 
+           href="https://discord.com/oauth2/authorize?client_id=SEU_ID&permissions=8&scope=bot%20applications.commands">
+           Conectar Bot
+        </a>
+    </div>
+
+    <div class="action-card" data-tilt>
+        <h3>📊 Abrir Dashboard</h3>
+        <p>Acesse o painel e controle seu bot em tempo real.</p>
+        <a class="action-btn green" href="/dashboard">Entrar no Painel</a>
+    </div>
+
+    <div class="action-card" data-tilt>
+        <h3>❓ Sobre o FresaCloud</h3>
+        <p>Entenda como funciona nossa plataforma e seus benefícios.</p>
+        <a class="action-btn blue" href="#sobre">Ver Mais</a>
+    </div>
+
+</section>
+
+<section class="about" id="sobre">
+    <h2 class="about-title">Como o FresaCloud funciona?</h2>
+
+    <div class="about-grid">
+
+        <div class="about-card" data-tilt>
+            <h3>🚀 Performance Máxima</h3>
+            <p>Infraestrutura otimizada para manter seu bot sempre estável.</p>
+        </div>
+
+        <div class="about-card" data-tilt>
+            <h3>🛠 Suporte Total</h3>
+            <p>Compatível com bots em Node.js e Python.</p>
+        </div>
+
+        <div class="about-card" data-tilt>
+            <h3>🔒 Segurança</h3>
+            <p>Sistemas modernos garantem proteção total ao seu bot.</p>
+        </div>
+
+        <div class="about-card" data-tilt>
+            <h3>🎨 Interface Moderna</h3>
+            <p>Design inspirado no Discord, fluido e intuitivo.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    © 2025 FresaCloud — Todos os direitos reservados.
+</footer>
+
+<script src="scripts/home.js"></script>
+</body>
+</html>
