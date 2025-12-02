@@ -32,13 +32,13 @@
 
 * [x] Criar repositório `fresacloud/`
 * [x] Criar README inicial
-* [ ] Criar pastas:
+* [x] Criar pastas:
 
-  * [ ] `/bot`
-  * [ ] `/backend`
-  * [ ] `/engine`
-  * [ ] `/dashboard`
-* [ ] Configurar ambiente e dependências
+  * [x] `/bot`
+  * [x] `/backend`
+  * [x] `/engine`
+  * [x] `/dashboard`
+* [x] Configurar ambiente e dependências
 
 ---
 
@@ -66,9 +66,9 @@
 
 ### **Setup Base**
 
-* [ ] Criar projeto FastAPI ou Express
+* [x] Criar projeto FastAPI ou Express
 * [ ] Endpoint GET `/status`
-* [ ] Estrutura principal de rotas
+* [x] Estrutura principal de rotas
 
 ### **Endpoints Essenciais**
 
